@@ -68,10 +68,8 @@
                         <h1>Nur Mohammad Rayhan</h1>
                         <p>i'm Web Designer and Developer</p>
                         <div class="social-link">
-                           <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                           <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                           <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                           <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                           <a href="https://www.instagram.com/rayhan__me/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                           <a href="https://www.linkedin.com/in/nur-mohammad-rayhan-71a530160/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
