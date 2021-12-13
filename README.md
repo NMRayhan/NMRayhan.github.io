@@ -29,7 +29,7 @@
           <div class="inner">
             <h1>Nur Mohammad Rayhan</h1>
             <p>
-              i'm web developer from Dhaka, Bangladesh. i experience this sector in my university life.test
+              i'm web developer from Dhaka, Bangladesh. i experience this sector in my university life.
             </p>
           </div>
         </div>
