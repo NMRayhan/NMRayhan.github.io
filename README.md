@@ -6,7 +6,7 @@
 -->
 <html>
   <head>
-    <title>Dimension by HTML5 UP</title>
+    <title>Nur Mohammad Rayhan</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -57,7 +57,7 @@
           <p>
             In my university life i working so many Tech-event like BASIS SoftExpo2020 Organize by Bangladesh Association of Software and Information Services, 2nd International Conference on Cyber Security and Computer Science(ICONCS2020), 18th Asian University President Forum (AUPF2019) both will be organized by Daffodil International University, Dhaka, Bangladesh.
           </p>
-          
+
         </article>
 
         <!-- Work -->
@@ -178,13 +178,13 @@
             <pre><code>i = 0;
 
 while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
+print 'Iteration ' + i;
+deck.shuffle();
+i++;
 }
 
 print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-          </section>
+</section>
 
           <section>
             <h3 class="major">Lists</h3>
@@ -472,5 +472,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+
   </body>
 </html>
