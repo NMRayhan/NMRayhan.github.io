@@ -1,600 +1,476 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/skin/pink.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-    <!-- live style switcher Demo only -->
-
-    <link rel="stylesheet" class="alternate-style" title="pink" href="css/skin/pink.css" disabled>
-    <link rel="stylesheet" class="alternate-style" title="blue" href="css/skin/blue.css" disabled>
-    <link rel="stylesheet" class="alternate-style" title="green" href="css/skin/green.css" disabled>
-    <link rel="stylesheet" class="alternate-style" title="orange" href="css/skin/orange.css" disabled>
-    <link rel="stylesheet" class="alternate-style" title="yellow" href="css/skin/yellow.css" disabled>
-
-    <link rel="stylesheet" href="css/styleSwitcher.css">
-
-
-    <title>Home</title>
-</head>
-<body>
-
-    <!-- preloader overly -->
-    <div class="preloader">
-        <div class="loader">
-
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Dimension by HTML5 UP</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <div class="logo">
+          <span class="icon fa-gem"></span>
         </div>
-    </div>
-    <!-- preloader overly end -->
+        <div class="content">
+          <div class="inner">
+            <h1>Nur Mohammad Rayhan</h1>
+            <p>
+              i'm web developer from Dhaka, Bangladesh. i experience this sector in my university life.
+            </p>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#intro">Intro</a></li>
+            <li><a href="#about">About</a></li>
+			      <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
 
-    <!-- Maincontainer -->
-    <div class="main-container">
-        <!-- Asidebar -->
-        <div class="Aside">
-            <!-- Logo -->
-            <div class="logo">
-                <a href="#">Rayhan</a>
+      <!-- Main -->
+      <div id="main">
+        <!-- Intro -->
+        <article id="intro">
+          <h2 class="major">Nur Mohammad Rayhan</h2>
+          <p>
+            I'm a professional Web developer from Dhaka, Bangladesh. New challenge taker and Technology enthusiast. experienced in last 2 years in Frontend development. I always try to learn something new in my carrier track. in my university running, I'm developing some GUI in java for my course purpose. I learn Relational Database Management in SQL Server 2019. learning Object-oriented programming, Data structure, Algorithm, Operating System, Arduino Programming, software development life cycle, software requirement specification. web application in HTML, CSS, javascript, and bootstrap. learning Frontend frameworks like ReactJS. I create some frontend projects in my practical purpose, By the way. check out my <a href="#work">awesome work</a>.
+          </p>
+          <p>
+
+          </p>
+          <p>
+            In my university life i working so many Tech-event like BASIS SoftExpo2020 Organize by Bangladesh Association of Software and Information Services, 2nd International Conference on Cyber Security and Computer Science(ICONCS2020), 18th Asian University President Forum (AUPF2019) both will be organized by Daffodil International University, Dhaka, Bangladesh.
+          </p>
+          
+        </article>
+
+        <!-- Work -->
+        <article id="work">
+          <h2 class="major">Work</h2>
+          <span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+          <p>
+            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
+            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
+            urna nisi, fringila lorem et vehicula lacinia quam. Integer
+            sollicitudin mauris nec lorem luctus ultrices.
+          </p>
+          <p>
+            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
+            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
+            Pellentesque condimentum sem. In efficitur ligula tate urna.
+            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
+            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
+            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
+            tempus.
+          </p>
+        </article>
+
+        <!-- About -->
+        <article id="about">
+          <h2 class="major">About</h2>
+          <span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
+            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
+            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
+            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
+            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
+            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
+            amet.
+          </p>
+        </article>
+
+        <!-- Contact -->
+        <article id="contact">
+          <h2 class="major">Contact</h2>
+          <form method="post" action="#">
+            <div class="fields">
+              <div class="field half">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" />
+              </div>
+              <div class="field half">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" />
+              </div>
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="4"></textarea>
+              </div>
             </div>
-            <!-- nav toggler btn -->
-            <div class="nav-toggle">
-                <span></span>
-            </div>
-            <!-- Navbar -->
-            <ul class="navbar">
-                <li><a href="#home" class="active"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
-                <li><a href="#about"><i class="fa fa-user" aria-hidden="true"></i>About</a></li>
-                <li><a href="#service"><i class="fa fa-list" aria-hidden="true"></i>Services</a></li>
-                <li><a href="#portfolio"><i class="fa fa-briefcase" aria-hidden="true"></i>fortpolio</a></li>
-                <li><a href="#blog"><i class="fa fa-envelope" aria-hidden="true"></i>Blog</a></li>
-                <li><a href="#contact"><i class="fa fa-comments" aria-hidden="true"></i>Contact</a></li>
+            <ul class="actions">
+              <li>
+                <input type="submit" value="Send Message" class="primary" />
+              </li>
+              <li><input type="reset" value="Reset" /></li>
             </ul>
-            <div class="copyright-text">
-                &copy; 2020-All right Reserved by Rayhan
+          </form>
+          <ul class="icons">
+            <li>
+              <a href="#" class="icon brands fa-twitter"
+                ><span class="label">Twitter</span></a
+              >
+            </li>
+            <li>
+              <a href="#" class="icon brands fa-facebook-f"
+                ><span class="label">Facebook</span></a
+              >
+            </li>
+            <li>
+              <a href="#" class="icon brands fa-instagram"
+                ><span class="label">Instagram</span></a
+              >
+            </li>
+            <li>
+              <a href="#" class="icon brands fa-github"
+                ><span class="label">GitHub</span></a
+              >
+            </li>
+          </ul>
+        </article>
+
+        <!-- Elements -->
+        <article id="elements">
+          <h2 class="major">Elements</h2>
+
+          <section>
+            <h3 class="major">Text</h3>
+            <p>
+              This is <b>bold</b> and this is <strong>strong</strong>. This is
+              <i>italic</i> and this is <em>emphasized</em>. This is
+              <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+              This is <u>underlined</u> and this is code:
+              <code>for (;;) { ... }</code>. Finally,
+              <a href="#">this is a link</a>.
+            </p>
+            <hr />
+            <h2>Heading Level 2</h2>
+            <h3>Heading Level 3</h3>
+            <h4>Heading Level 4</h4>
+            <h5>Heading Level 5</h5>
+            <h6>Heading Level 6</h6>
+            <hr />
+            <h4>Blockquote</h4>
+            <blockquote>
+              Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis
+              sagittis eget tempus euismod. Vestibulum ante ipsum primis in
+              faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat
+              ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in
+              faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.
+            </blockquote>
+            <h4>Preformatted</h4>
+            <pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+          </section>
+
+          <section>
+            <h3 class="major">Lists</h3>
+
+            <h4>Unordered</h4>
+            <ul>
+              <li>Dolor pulvinar etiam.</li>
+              <li>Sagittis adipiscing.</li>
+              <li>Felis enim feugiat.</li>
+            </ul>
+
+            <h4>Alternate</h4>
+            <ul class="alt">
+              <li>Dolor pulvinar etiam.</li>
+              <li>Sagittis adipiscing.</li>
+              <li>Felis enim feugiat.</li>
+            </ul>
+
+            <h4>Ordered</h4>
+            <ol>
+              <li>Dolor pulvinar etiam.</li>
+              <li>Etiam vel felis viverra.</li>
+              <li>Felis enim feugiat.</li>
+              <li>Dolor pulvinar etiam.</li>
+              <li>Etiam vel felis lorem.</li>
+              <li>Felis enim et feugiat.</li>
+            </ol>
+            <h4>Icons</h4>
+            <ul class="icons">
+              <li>
+                <a href="#" class="icon brands fa-twitter"
+                  ><span class="label">Twitter</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="icon brands fa-facebook-f"
+                  ><span class="label">Facebook</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="icon brands fa-instagram"
+                  ><span class="label">Instagram</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="icon brands fa-github"
+                  ><span class="label">Github</span></a
+                >
+              </li>
+            </ul>
+
+            <h4>Actions</h4>
+            <ul class="actions">
+              <li><a href="#" class="button primary">Default</a></li>
+              <li><a href="#" class="button">Default</a></li>
+            </ul>
+            <ul class="actions stacked">
+              <li><a href="#" class="button primary">Default</a></li>
+              <li><a href="#" class="button">Default</a></li>
+            </ul>
+          </section>
+
+          <section>
+            <h3 class="major">Table</h3>
+            <h4>Default</h4>
+            <div class="table-wrapper">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Item One</td>
+                    <td>Ante turpis integer aliquet porttitor.</td>
+                    <td>29.99</td>
+                  </tr>
+                  <tr>
+                    <td>Item Two</td>
+                    <td>Vis ac commodo adipiscing arcu aliquet.</td>
+                    <td>19.99</td>
+                  </tr>
+                  <tr>
+                    <td>Item Three</td>
+                    <td>Morbi faucibus arcu accumsan lorem.</td>
+                    <td>29.99</td>
+                  </tr>
+                  <tr>
+                    <td>Item Four</td>
+                    <td>Vitae integer tempus condimentum.</td>
+                    <td>19.99</td>
+                  </tr>
+                  <tr>
+                    <td>Item Five</td>
+                    <td>Ante turpis integer aliquet porttitor.</td>
+                    <td>29.99</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td colspan="2"></td>
+                    <td>100.00</td>
+                  </tr>
+                </tfoot>
+              </table>
             </div>
-        </div>
-        <!-- Asidebar End -->
-        <!-- Main content -->
-        <div class="main-content">
-            <!-- Home Section -->
-            <section class="home section active" id="home">
-                <div class="container">
-                    <div class="intro">
-                        <img class="shadow-dark" src="https://i.postimg.cc/ryJVJzq8/1601798311238.jpg" alt="Profile">
-                        <h1>Nur Mohammad Rayhan</h1>
-                        <p>i'm Web Designer and Developer</p>
-                        <div class="social-link">
-                           <a href="https://www.instagram.com/rayhan__me/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                           <a href="https://www.linkedin.com/in/nur-mohammad-rayhan-71a530160/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Home Section End -->
-            <!-- About Section -->
-            <section class="about section " id="about">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>About Me</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="about-content padd-15">
-                            <div class="row">
-                                <div class="about-text padd-15">
-                                    <h3>I'm Nur Mohammad Rayhan <span>Web Design and Developer</span></h3>
-                                    <p>Hi! i'm Nur Mohammad Rayhan. I am a Web Design and Developer, I am Very Dedicated and Passionate to my work. With 10 Years Experiance as a Professional Web Design and Devlopment. I have Acquired the skill and Knowledge necessary to make your Projrct Success. I enjoy Every step of the Design Process,from Discussion and Colaboration.</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="personal-info padd-15">
-                                    <div class="row">
-                                        <div class="info-item padd-15">
-                                            <p>Birthday : <span>5th August 1997</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Age : <span>24</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Blood Group : <span>O+</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Email : <span>info@gmail.com</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Phone : <span>+8801789486271</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Degree : <span>BSc in SWE</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>City : <span>Dhaka</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Freelance : <span>Not available</span></p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="buttons padd-15">
-                                            <a href="#" class="btn">Download CV</a>
-                                            <a href="#contact" data-section-index="1" class="btn hire-me">Hire Me</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="skills padd-15">
-                                    <div class="row">
-                                        <div class="skill-item padd-15">
-                                            <h5>Jacascript</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width:76%"></div>
-                                                <div class="skill-percent">76%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item padd-15">
-                                            <h5>HTML</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width:80%"></div>
-                                                <div class="skill-percent">80%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item padd-15">
-                                            <h5>CSS</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width:75%"></div>
-                                                <div class="skill-percent">75%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item padd-15">
-                                            <h5>Bootstrap</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width:80%"></div>
-                                                <div class="skill-percent">80%</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="education padd-15">
-                                    <h3 class="title">Education</h3>
-                                    <div class="row">
-                                        <div class="timeline-box padd-15">
-                                            <div class="timeline shadow-dark">
-                                                <!-- timeline item -->
-                                                <div class="timeline-item">
-                                                    <div class="circle-dot"></div>
-                                                    <h6 class="timeline-date">
-                                                    <i class="fa fa-calendar" aria-hidden="true"></i> 2018-2021</h6>
-                                                    <h4 class="timeline-title">Bachelor of Software Engineering</h4>
-                                                    <p class="timeline-text">Daffodil International University,Dhaka,Bangladesh <br>CGPA: 3.80 out of 4.00 </p>
-                                                </div>
-                                                <!-- timeline item end -->
-                                                <!-- timeline item -->
-                                                <div class="timeline-item">
-                                                    <div class="circle-dot"></div>
-                                                    <h6 class="timeline-date">
-                                                    <i class="fa fa-calendar" aria-hidden="true"></i> 2016-2017</h6>
-                                                    <h4 class="timeline-title">Higher Secondary Certificate Examination,2017</h4>
-                                                    <p class="timeline-text">Ibn Taimiya School and College, Science Group <br>GPA: 3.75 out of 5.00 </p>
-                                                </div>
-                                                <!-- timeline item end -->
-                                                <!-- timeline item -->
-                                                <div class="timeline-item">
-                                                    <div class="circle-dot"></div>
-                                                    <h6 class="timeline-date">
-                                                    <i class="fa fa-calendar" aria-hidden="true"></i> 2014-2015</h6>
-                                                    <h4 class="timeline-title">Dakhil Examination,2015</h4>
-                                                    <p class="timeline-text">Feni Kamil Madrasha, Science Group <br>GPA: 5.00 out of 5.00 </p>
-                                                </div>
-                                                <!-- timeline item end -->
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="experience padd-15">
-                                    <h3 class="title">Experience</h3>
-                                    <div class="row">
-                                        <div class="timeline-box padd-15">
-                                            <div class="timeline shadow-dark">
-                                                <!-- timeline item -->
-                                                <div class="timeline-item">
-                                                    <div class="circle-dot"></div>
-                                                    <h6 class="timeline-date">
-                                                    <i class="fa fa-calendar" aria-hidden="true"></i> 2018-2021</h6>
-                                                    <h4 class="timeline-title">Font-End Developer at DeshIT</h4>
-                                                    <p class="timeline-text">Daffodil International University,Dhaka,Bangladesh <br>CGPA: 3.80 out of 4.00 </p>
-                                                </div>
-                                                <!-- timeline item end -->
-                                                <!-- timeline item -->
-                                                <div class="timeline-item">
-                                                    <div class="circle-dot"></div>
-                                                    <h6 class="timeline-date">
-                                                    <i class="fa fa-calendar" aria-hidden="true"></i> 2016-2017</h6>
-                                                    <h4 class="timeline-title">Font-End Developer at Datasoft</h4>
-                                                    <p class="timeline-text">Lorem Ipsum has been the industry's, when an unknown printer took a galley of type and scrambled</p>
-                                                </div>
-                                                <!-- timeline item end -->
-                                                <!-- timeline item -->
-                                                <div class="timeline-item">
-                                                    <div class="circle-dot"></div>
-                                                    <h6 class="timeline-date">
-                                                    <i class="fa fa-calendar" aria-hidden="true"></i> 2014-2015</h6>
-                                                    <h4 class="timeline-title">Graphics Design at Fiver.com</h4>
-                                                    <p class="timeline-text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
-                                                </div>
-                                                <!-- timeline item end -->
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- About Section End -->
-            <!-- Service Section -->
-            <section class="service section " id="service">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>Service</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <!-- Service item -->
-                        <div class="service-item padd-15">
-                            <div class="serive-item-inner">
-                                <div class="icon"><i class="fa fa-laptop" aria-hidden="true"></i></div>
-                                <h4>Web Design</h4>
-                                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
-                            </div>
-                        </div>
-                        <!-- Service item end -->
-                        <!-- Service item -->
-                        <div class="service-item padd-15">
-                            <div class="serive-item-inner">
-                                <div class="icon"><i class="fa fa-photo" aria-hidden="true"></i></div>
-                                <h4>Photography</h4>
-                                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
-                            </div>
-                        </div>
-                        <!-- Service item end -->
-                        <!-- Service item -->
-                        <div class="service-item padd-15">
-                            <div class="serive-item-inner">
-                                <div class="icon"><i class="fa fa-code" aria-hidden="true"></i></div>
-                                <h4>Web Development</h4>
-                                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
-                            </div>
-                        </div>
-                        <!-- Service item end -->
-                        <!-- Service item -->
-                        <div class="service-item padd-15">
-                            <div class="serive-item-inner">
-                                <div class="icon"><i class="fa fa-film" aria-hidden="true"></i></div>
-                                <h4>Video Editing</h4>
-                                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
-                            </div>
-                        </div>
-                        <!-- Service item end -->
-                        <!-- Service item -->
-                        <div class="service-item padd-15">
-                            <div class="serive-item-inner">
-                                <div class="icon"><i class="fa fa-rocket" aria-hidden="true"></i></div>
-                                <h4>SEO Optimisation</h4>
-                                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
-                            </div>
-                        </div>
-                        <!-- Service item end -->
-                        <!-- Service item -->
-                        <div class="service-item padd-15">
-                            <div class="serive-item-inner">
-                                <div class="icon"><i class="fa fa-paint-brush" aria-hidden="true"></i></div>
-                                <h4>Logo Design</h4>
-                                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
-                            </div>
-                        </div>
-                        <!-- Service item end -->
-                    </div>
-                </div>
-            </section>
-            <!-- Service Section end -->
-            <!-- portfolio Section -->
-            <section class="portfolio section " id="portfolio">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>Portfolio</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="portfolio-filter padd-15">
-                            <button type="button" class="active" data-filter="all">All</button>
-                            <button type="button" data-filter="web-design">Web Design</button>
-                            <button type="button" data-filter="photography">Photography</button>
-                            <button type="button" data-filter="wordpress">Wordpress</button>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <!-- portfolio item -->
-                        <div class="portfolio-item padd-15" data-category="web-design">
-                            <div class="portfolio-item-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <img src="https://images.unsplash.com/photo-1559056199-641a0ac8b55e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="">
-                                </div>
-                                <div class="portfolio-info">
-                                    <h4>Web Design</h4>
-                                    <div class="icon">
-                                        <i class="fa fa-search" aria-hidden="true"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- portfolio item end -->
-                        <!-- portfolio item -->
-                        <div class="portfolio-item padd-15" data-category="web-design">
-                            <div class="portfolio-item-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <img src="https://media.4rgos.it/i/Argos/3920-m0014-m007-m050-asym-m008-m022-webcamsguide-review-8365534?qlt=75&fmt.jpeg.interlaced=true" alt="">
-                                </div>
-                                <div class="portfolio-info">
-                                    <h4>Web Design</h4>
-                                    <div class="icon">
-                                        <i class="fa fa-search" aria-hidden="true"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- portfolio item end -->
-                        <!-- portfolio item -->
-                        <div class="portfolio-item padd-15" data-category="wordpress">
-                            <div class="portfolio-item-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <img src="https://www.a4tech.com/alanUpload/colorImg/img/201711/2908490527003882.jpg" alt="">
-                                </div>
-                                <div class="portfolio-info">
-                                    <h4>Wordpress</h4>
-                                    <div class="icon">
-                                        <i class="fa fa-search" aria-hidden="true"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- portfolio item end -->
-                        <!-- portfolio item -->
-                        <div class="portfolio-item padd-15" data-category="wordpress">
-                            <div class="portfolio-item-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <img src="https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="">
-                                </div>
-                                <div class="portfolio-info">
-                                    <h4>Wordpress</h4>
-                                    <div class="icon">
-                                        <i class="fa fa-search" aria-hidden="true"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- portfolio item end -->
-                        <!-- portfolio item -->
-                        <div class="portfolio-item padd-15" data-category="photography">
-                            <div class="portfolio-item-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <img src="https://images.unsplash.com/photo-1588413203251-fe2bdcbc1cc5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="">
-                                </div>
-                                <div class="portfolio-info">
-                                    <h4>Photography</h4>
-                                    <div class="icon">
-                                        <i class="fa fa-search" aria-hidden="true"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- portfolio item end -->
-                        <!-- portfolio item -->
-                        <div class="portfolio-item padd-15" data-category="photography">
-                            <div class="portfolio-item-inner shadow-dark">
-                                <div class="portfolio-img">
-                                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9" alt="">
-                                </div>
-                                <div class="portfolio-info">
-                                    <h4>Photography</h4>
-                                    <div class="icon">
-                                        <i class="fa fa-search" aria-hidden="true"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- portfolio item end -->
-                    </div>
-                </div>
-            </section>
-            <!-- portfolio Section End -->
-            <!-- Blog Section -->
-            <section class="blog section " id="blog">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>Latest Blog</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <!-- blog item -->
-                        <div class="blog-item padd-15">
-                            <div class="blog-item-inner shadow-dark">
-                                <div class="blog-img">
-                                    <img src="https://www.educative.io/api/page/4792707659595776/image/download/5909454286487552" alt="">
-                                    <div class="blog-time">4 june 2020</div>
-                                </div>
-                                <div class="blog-info">
-                                    <h4 class="blog-title">Object Oriented Programming</h4>
-                                    <p class="blog-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of has a more-or-less normal distribution of letters</p>
-                                    <p class="blog-tags">Tags : <a href="#">Java</a> , <a href="#">php</a></p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- blog item end -->
-                        <!-- blog item -->
-                        <div class="blog-item padd-15">
-                            <div class="blog-item-inner shadow-dark">
-                                <div class="blog-img">
-                                    <img src="https://www.ierek.com/news/wp-content/uploads/2018/08/1-1.jpg" alt="">
-                                    <div class="blog-time">5 August 2019</div>
-                                </div>
-                                <div class="blog-info">
-                                    <h4 class="blog-title">Database Architecture</h4>
-                                    <p class="blog-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-                                    <p class="blog-tags">Tags : <a href="#">SQL</a> , <a href="#">Java</a></p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- blog item end -->
-                        <!-- blog item -->
-                        <div class="blog-item padd-15">
-                            <div class="blog-item-inner shadow-dark">
-                                <div class="blog-img">
-                                    <img src="https://www.seekpng.com/png/detail/406-4062993_new-career-option-ui-ux-designer-ui-ux.png" alt="">
-                                    <div class="blog-time">10 January 2018</div>
-                                </div>
-                                <div class="blog-info">
-                                    <h4 class="blog-title">UX/UI Design</h4>
-                                    <p class="blog-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has Lorem  that it has Lorem Ipsum is that it has a more-or-less normal </p>
-                                    <p class="blog-tags">Tags : <a href="#">Adobe XD</a> , <a href="#">Design</a></p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- blog item end -->
-                    </div>
-                </div>
-            </section>
-            <!-- Blog Section end -->
-            <!-- Contact Section -->
-            <section class="contact section" id="contact">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>Contact Me</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <!-- contact item  -->
-                        <div class="contact-info-item padd-15">
-                            <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
-                            <h4>Call us on</h4>
-                            <p>+91 8800 000 000</p>
-                        </div>
-                        <!-- contact item end -->
-                        <!-- contact item  -->
-                        <div class="contact-info-item padd-15">
-                            <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                            <h4>Office</h4>
-                            <p>92/3, Sukrabad, Dhaka, Bangladesh</p>
-                        </div>
-                        <!-- contact item end -->
-                        <!-- contact item  -->
-                        <div class="contact-info-item padd-15">
-                            <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
-                            <h4>Email</h4>
-                            <p>info@gmail.com</p>
-                        </div>
-                        <!-- contact item end -->
-                    </div>
-                    <!-- contact form -->
-                    <div class="row">
-                        <form action="" class="contact-form padd-15">
-                            <div class="row">
-                                <div class="fomr-item col-6 padd-15">
-                                    <div class="form-group">
-                                        <input type="text" name="" id="" class="form-control" placeholder="Name*">
-                                    </div>
-                                </div>
-                                <div class="fomr-item col-6 padd-15">
-                                    <div class="form-group">
-                                        <input type="text" name="" id="" class="form-control" placeholder="Email*">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="fomr-item col-12 padd-15">
-                                    <div class="form-group">
-                                        <input type="text" name="" id="" class="form-control" placeholder="Subject*">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="fomr-item col-12 padd-15">
-                                    <div class="form-group">
-                                        <textarea cols="30" rows="10" class="form-control" placeholder="Your Massage..."></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12 padd-15">
-                                    <button type="submit" class="btn">Send Massage</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <!-- contact form end -->
-                </div>
-            </section>
-            <!-- contact Section End -->
-        </div>
-        <!-- Main content End -->
-    </div>
-    <!-- Maincontainer End -->
 
-
-    <!-- lightbox -->
-    <div class="lightbox">
-        <div class="lightbox-content">
-            <div class="lightbox-close">&times;</div>
-            <img src="https://images.unsplash.com/photo-1588413203251-fe2bdcbc1cc5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" class="lightbox-img" onclick="nextItem()">
-            <div class="lightbox-caption">
-                <div class="caption-text"></div>
-                <div class="caption-counter"></div>
+            <h4>Alternate</h4>
+            <div class="table-wrapper">
+              <table class="alt">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Item One</td>
+                    <td>Ante turpis integer aliquet porttitor.</td>
+                    <td>29.99</td>
+                  </tr>
+                  <tr>
+                    <td>Item Two</td>
+                    <td>Vis ac commodo adipiscing arcu aliquet.</td>
+                    <td>19.99</td>
+                  </tr>
+                  <tr>
+                    <td>Item Three</td>
+                    <td>Morbi faucibus arcu accumsan lorem.</td>
+                    <td>29.99</td>
+                  </tr>
+                  <tr>
+                    <td>Item Four</td>
+                    <td>Vitae integer tempus condimentum.</td>
+                    <td>19.99</td>
+                  </tr>
+                  <tr>
+                    <td>Item Five</td>
+                    <td>Ante turpis integer aliquet porttitor.</td>
+                    <td>29.99</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td colspan="2"></td>
+                    <td>100.00</td>
+                  </tr>
+                </tfoot>
+              </table>
             </div>
-        </div>
-        <div class="lightbox-control">
-            <div class="prev-item" onclick="prevItem()" ><i class="fa fa-angle-left" aria-hidden="true"></i></div>
-            <div class="next-item" onclick="nextItem()"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
-        </div>
+          </section>
+
+          <section>
+            <h3 class="major">Buttons</h3>
+            <ul class="actions">
+              <li><a href="#" class="button primary">Primary</a></li>
+              <li><a href="#" class="button">Default</a></li>
+            </ul>
+            <ul class="actions">
+              <li><a href="#" class="button">Default</a></li>
+              <li><a href="#" class="button small">Small</a></li>
+            </ul>
+            <ul class="actions">
+              <li>
+                <a href="#" class="button primary icon solid fa-download"
+                  >Icon</a
+                >
+              </li>
+              <li>
+                <a href="#" class="button icon solid fa-download">Icon</a>
+              </li>
+            </ul>
+            <ul class="actions">
+              <li><span class="button primary disabled">Disabled</span></li>
+              <li><span class="button disabled">Disabled</span></li>
+            </ul>
+          </section>
+
+          <section>
+            <h3 class="major">Form</h3>
+            <form method="post" action="#">
+              <div class="fields">
+                <div class="field half">
+                  <label for="demo-name">Name</label>
+                  <input
+                    type="text"
+                    name="demo-name"
+                    id="demo-name"
+                    value=""
+                    placeholder="Jane Doe"
+                  />
+                </div>
+                <div class="field half">
+                  <label for="demo-email">Email</label>
+                  <input
+                    type="email"
+                    name="demo-email"
+                    id="demo-email"
+                    value=""
+                    placeholder="jane@untitled.tld"
+                  />
+                </div>
+                <div class="field">
+                  <label for="demo-category">Category</label>
+                  <select name="demo-category" id="demo-category">
+                    <option value="">-</option>
+                    <option value="1">Manufacturing</option>
+                    <option value="1">Shipping</option>
+                    <option value="1">Administration</option>
+                    <option value="1">Human Resources</option>
+                  </select>
+                </div>
+                <div class="field half">
+                  <input
+                    type="radio"
+                    id="demo-priority-low"
+                    name="demo-priority"
+                    checked
+                  />
+                  <label for="demo-priority-low">Low</label>
+                </div>
+                <div class="field half">
+                  <input
+                    type="radio"
+                    id="demo-priority-high"
+                    name="demo-priority"
+                  />
+                  <label for="demo-priority-high">High</label>
+                </div>
+                <div class="field half">
+                  <input type="checkbox" id="demo-copy" name="demo-copy" />
+                  <label for="demo-copy">Email me a copy</label>
+                </div>
+                <div class="field half">
+                  <input
+                    type="checkbox"
+                    id="demo-human"
+                    name="demo-human"
+                    checked
+                  />
+                  <label for="demo-human">Not a robot</label>
+                </div>
+                <div class="field">
+                  <label for="demo-message">Message</label>
+                  <textarea
+                    name="demo-message"
+                    id="demo-message"
+                    placeholder="Enter your message"
+                    rows="6"
+                  ></textarea>
+                </div>
+              </div>
+              <ul class="actions">
+                <li>
+                  <input type="submit" value="Send Message" class="primary" />
+                </li>
+                <li><input type="reset" value="Reset" /></li>
+              </ul>
+            </form>
+          </section>
+        </article>
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <p class="copyright">
+          &copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.
+        </p>
+      </footer>
     </div>
-    <!-- lightbox end -->
 
-    <!-- live style switcher demo only -->
-    <div class="style-switcher">
-        <div class="toggle-style-switcher">
-            <i class="fa fa-cog fa-spin" aria-hidden="true"></i>
-        </div>
-        <h5>Style Switcher</h5>
-        <ul>
-            <li><a href="javascript:void(0);" title="pink" style="background-color: #ec1839;" onclick="setActiveStyle('pink')"></a></li>
-            <li><a href="javascript:void(0);" title="blue" style="background-color: #2196f3;" onclick="setActiveStyle('blue')"></a></li>
-            <li><a href="javascript:void(0);" title="orange" style="background-color: #fa5b0f;" onclick="setActiveStyle('orange')"></a></li>
-            <li><a href="javascript:void(0);" title="yellow" style="background-color: #ffb400;" onclick="setActiveStyle('yellow')"></a></li>
-            <li><a href="javascript:void(0);" title="green" style="background-color: #72b626;" onclick="setActiveStyle('green')"></a></li>
-        </ul>
-        <h5>Body Skin</h5>
-        <label>
-            <input type="radio" class="body-skin" name="body-style" value="light" checked="true">Light
-        </label>
-        <label>
-            <input type="radio" class="body-skin" name="body-style" value="dark">Dark
-        </label>
+    <!-- BG -->
+    <div id="bg">
+      <!-- <img src="/assets/img/font-bg.jpg" alt="" /> -->
     </div>
-    <!-- live style switcher demo only end -->
 
-    <!-- template js -->
-    <script src="js/script.js"></script>
-
-    <!-- live style switcher js  -->
-    <script src="js/styleSwitcher.js"></script>
-</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
